@@ -1,0 +1,546 @@
+/*
+Website name: portfolio
+version: 1.01
+author: Md. Rubel Mahmud
+Url: 
+
+
+*/
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#main-header{
+	background: linear-gradient(rgba(21, 39, 190, 0.5), rgba(60, 07, 102, 0.5)),url(../images/SM1123515.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.main-menu{
+	width: 85%;
+	//background: #ccc;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+ul{
+	list-style: none;
+	margin: 10px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+ul li{
+	padding: 10px 20px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: arial;
+	color: #fff;
+	font-weight: 400;
+	transition: 0.8s;
+}
+ul li a:hover{
+	color: orange;
+	transition: 0.8s;
+}
+.menu-button{
+	padding: 10px 20px;
+}
+.menu-inner-button{
+	padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #f4f6f6;
+    transition: 0.6s;
+}
+.menu-inner-button:hover{
+	background: orange;
+	color: #fff;
+	transition: 0.6s;
+	cursor: pointer;
+}
+/*slider style start*/
+.col-md-8 h3{
+	color: #ffffff;
+	font-size: 42px;
+	font-family: arial;
+	padding: 80px 0 20px 0;
+}
+.col-md-8 p{
+	color: #ffffff;
+	font-size: 18px;
+
+}
+.slider-button{
+	padding: 30px 0;
+}
+.btn-slider{
+	padding: 12px 30px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.btn-slider:hover{
+	background: orange;
+	transition: 0.8s;
+	cursor: pointer;
+}
+.row{
+	margin: auto;
+	width: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.slider-title{
+	color: orange;
+}
+.slider-form{
+	background: rgba(246, 171, 11, 0.8);
+	padding: 30px;
+	border-radius: 10px;
+	margin: 5assssss0px 0 0 0;
+}
+.form-control{
+	padding: 10px 50px;
+    margin: 10px 0;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1.5px solid #fff900;
+}
+.signup-button{
+	padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    background: orange;
+    border: 1.5px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.8s;
+}
+.signup-button:hover{
+	background: #f6d754;
+	transition: 0.8s;
+	cursor: pointer;
+}
+.slider-form h2{
+	color: #fff;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+}
+.form-paragraphs p{
+	padding: 10px 0 0 0;
+	color: #fff;
+}
+.form-paragraphs a{
+	color: #fbff00;
+}
+/*about suru*/
+.about-col{
+	width: 48%;
+	margin: 20px 0;
+}
+.about-img{
+	padding: 30px 0;
+}
+
+.about-img img{
+	width: 100%;
+	transition: 0.5s;
+}
+.about-img img:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.about-content h3{
+	font-size: 28px;
+	font-family: arial;
+	padding: 20px 0;
+	text-align: left;
+}
+.about-content p{
+	text-align: justify;
+}
+.title{
+	color: orange;
+}
+.container{
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	padding: 50px 0;
+
+}
+.container h2{
+	font-size: 38px;
+	font-family: arial;
+	padding: 10px;
+}
+.services-col{
+	width: 32%;
+	    background: linear-gradient(rgb(189 224 255 / 90%), rgb(244 244 248)), url(../images/SM1123515.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	margin: 30px 0;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.services-col:hover{
+	background: linear-gradient(rgb(244 244 248 / 90%), rgb( 189 224 255 / 90%)), url(../images/SM1123515.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	margin: 30px 0;
+	border-radius: 5px;
+	transition: 0.5s;
+	box-shadow: 0px 3px 6px 0px #e3e3e3;
+}
+.services-icon{
+	padding: 15px;
+
+}
+.main-icon{
+	padding: 15px;
+	background: #222;
+	color: #fff;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.main-icon:hover{
+	background: orange;
+	transition: 0.5s;
+	transform: rotate(45deg);
+}
+.services-content h3{
+	padding: 10px 0;
+	font-family: arial;
+}
+.services-content p{
+	font-family: arial;
+	font-size: 15px;
+	padding: 10px 0;
+}
+.services-content a{
+	text-decoration: none;
+	color: #222;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: 600;
+	transition: 0.5s;
+}
+.services-content a:hover{
+	color: orange;
+	transition: 0.5s;
+}
+.portfolio-col{
+	width: 32%;
+	margin: 30px 0;
+}
+
+.portfolio-img img{
+	width: 100%;
+	opacity: 0.8;
+	transition: 0.8s;
+}
+.portfolio-img img:hover{
+	opacity: 1;
+	transition: 0.8s;
+
+}
+.portfolio-col h3{
+	background: orange;
+	padding: 10px;
+	margin-top: -5px;
+	transition: 0.5s;
+	font-family: "Audiowide", sans-serif;
+}
+.portfolio-col h3:hover{
+	background: #333;
+	color: #fff;
+	transition: 0.5s;
+}
+/*Client suru*/
+.client-col{
+	display: flex;
+	//width: 48%;
+	background: #fff3cf;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin: 30px 10px;
+	align-items: center;
+}
+.client-img{
+	width: 70%;
+}
+.client-col img{
+	width: 100%;
+	border-radius: 50%;
+}
+.client-content{
+	padding: 20px 15px;
+	text-align: left;
+
+}
+.client-content h4{
+	font-family: arial;
+	font-size: 19px;
+	padding: 5px 0;
+}
+.client-icon .c-icon{
+	color: orange;
+}
+/*team suru*/
+.team-col{
+	background: #fff3cf;
+	width: 32%;
+	border-radius: 10px;
+	transition: 0.5s;
+	border: 1px solid #ccc;
+	margin: 30px 0;
+	
+
+}
+.team-col:hover{
+	border-bottom: 5px solid orange;
+	transition: 0.5s;
+}
+
+.team-col img{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	o  pacity: 0.9;
+	transition: 0.5s;
+}
+.team-col img:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+.tema-content{
+	padding: 10px;
+}
+.tema-content h3{
+	font-size: 21px;
+	font-family: arial;
+	padding: 8px 0;
+}
+.tema-content h4{
+	font-size: 16px;
+	font-family: arial;
+}
+.team-icon{
+	padding: 10px;
+	margin: 10px 0;
+}
+.t-icon{
+	background: #222;
+	color: #fff;
+	padding: 12px 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	transition: 0.5s;
+}
+.t-icon:hover{
+	background: orange;
+	transition: 0.5s;
+}
+/*Footer style suru*/
+#footer-section{
+	background: linear-gradient(rgb(10 1 136 / 89%), rgb(117 5 136 / 86%)), url(../images/industrial-plant-at-night.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.footer-col{
+	width: 32%;
+}
+#footer-section .footer-col{
+	padding: 10px;
+	text-align: left;
+
+
+}
+.footer-form{
+	margin-top: -50px;
+}
+#footer-section .footer-col p{
+	font-size: 16px;
+	font-family: arial;
+	text-align: justify;
+	color: #ffffff;
+}
+.footer-content h2{
+	font-size: 22px;
+}
+.footer-menu ul{
+	flex-direction: column;
+	align-items: left;
+}
+.footer-menu ul li a{
+	text-align: left !important;
+}
+.footer-icon{
+	color: orange;
+}
+.footer-content h2{
+	color: #fff;
+}
+.footer-form h2{
+	font-size: 22px;
+	color: #fff
+}
+
+.footer-group .footer-control{
+	padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid #fff;
+    background: transparent;
+}
+.footer-button{
+	margin: 15px 0;
+}
+.sub-button{
+	padding: 10px 40px;
+    border-radius: 5px;
+    background: orange;
+    border: none;
+    font-size: 22px;
+    transition: 0.5s;
+
+}
+.sub-button:hover{
+	background: #fff;
+	transition: 0.5s;
+}
+.sub-button a:hover{
+	color: #222;
+	transition: 0.5s;
+}
+.sub-button a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+/*Copy right suru*/
+#main-copy-right{
+	background: #333;
+}
+.copy-right{
+
+}
+.copy-col{
+	text-align: center;
+	padding: 30px;
+	border-top: 1px solid #fff;
+}
+.copy-col p{
+	font-size: 19px;
+	font-family: arial;
+	text-align: center;
+	color: #fff;
+}
+.copy-col a{
+	font-size: 20px;
+	font-family: arial;
+	text-decoration: none;
+	color: orange;
+}
+#about-section{
+	background: linear-gradient(rgb(214 210 255 / 83%), rgb(248 248 248)), url(../images/tr.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#services-section{
+	    background: linear-gradient(rgb(255 255 255 / 88%), rgb(255 255 255 / 83%)), url(../images/tr.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#portfolio-section{
+	background: linear-gradient(rgb(214 210 255 / 83%), rgb(248 248 248)), url(../images/tr.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#client-section{
+	background: linear-gradient(rgb(255 255 255 / 88%), rgb(255 255 255 / 83%)), url(../images/tr.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#team-section{
+	background: linear-gradient(rgb(214 210 255 / 83%), rgb(248 248 248)), url(../images/tr.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*Conntact us page suru*/
+.contact-col{
+	width: 48%;
+	margin: 5px 0;
+}
+.contact-form{
+	padding: 20px;
+
+}
+.contact-control{
+	    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #222;
+    margin: 10px 0;
+
+}
+.contact-control:focus{
+	background: rgb(232 241 103 / 60%);
+}
+.con-button{
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+.contact-button{
+	padding: 8px;
+    width: 35%;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color: #fff;
+    transition: 0.5s;
+}
+.contact-button:hover{
+	background: blue;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.contact-form h2{
+	font-size: 25px;
+	font-family: arial;
+	text-align: left;
+}
+.contact-form p{
+	font-size: 15px;
+	font-family: arial;
+	text-align: left;
+}
